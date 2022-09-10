@@ -60,6 +60,13 @@ input[type="text"]:focus{
     border: none;
     color: #2e2e2e;
 }
+.submit:hover{
+    background-color: #2e2e2e;
+    color: #e2e2e2;
+}
+.submit:active{
+    background-color: bisque;
+}
 .display{
     color: black;
     list-style-type: none;
