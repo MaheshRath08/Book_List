@@ -7,7 +7,7 @@ body{
     background-color: #2e2e2e;
     color: #e2e2e2;
 }
-.container{
+.container, .display{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
@@ -53,4 +53,61 @@ input[type="text"]:focus{
     box-shadow: 0 0 3px 1px #e2e2e2;
     border: none;
     color: #2e2e2e;
+}
+.display{
+    color: black;
+    list-style-type: none;
+    text-align: center;
+}
+.display li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: whitesmoke;
+    border: 2px solid #2e2e2e;
+    border-radius: 10px;
+    font-family:fantasy;
+}
+.del{
+    font-size: 1.7rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px black;
+    background-color: rgb(151, 0, 0);
+    color: white;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+}
+.del:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 2px gold;
+}
+.del:active{
+    transform: scale(0.92);
+}
+.noti{
+    position: absolute;
+    top: 1rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.3rem;
+    color: white;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    visibility: hidden;
+}
+.err{
+    background-color: red;
+    box-shadow: 0 0 10px 3px crimson;
+    visibility: visible;
+}
+.done{
+    background-color: green;
+    box-shadow: 0 0 10px 3px greenyellow;
+    visibility: visible;
 }
