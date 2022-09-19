@@ -1,7 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:sans-serif;
 }
 body{
     background-color: #2e2e2e;
@@ -78,10 +78,11 @@ input[type="text"]:focus{
     padding: 0.5rem;
     font-size: 1.3rem;
     font-weight: 600;
-    background-color: whitesmoke;
+    background-color: #cfcfcf;
     border: 2px solid #2e2e2e;
+    color: #1f1f1f;
     border-radius: 10px;
-    font-family:fantasy;
+    font-family:cursive;
 }
 .del{
     font-size: 1.7rem;

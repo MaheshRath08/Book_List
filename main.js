@@ -19,11 +19,11 @@ if(bookData){
 submitBtn.addEventListener("click", ()=>{
     if(nameEl.value && author.value && bookId.value){
         makeList()
-    
+        
         nameEl.value = ""
         author.value = ""
         bookId.value = ""
-    
+        
         displayList(bookList)
         doneMsg()
     }else{
