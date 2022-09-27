@@ -14,6 +14,7 @@ let bookData = JSON.parse(localStorage.getItem("books"))
 
 if(bookData){
     bookList = bookData
+    displayList(bookList)
 }
 
 submitBtn.addEventListener("click", ()=>{
